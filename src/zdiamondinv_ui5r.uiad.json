@@ -1,0 +1,36 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "SD DE-DIAMOND INVOICE",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "SD DE-DIAMOND INVOICE"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.dediamondinvoice"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_809C30316F372F5711AA73CD5DA3A9F33A4C0179_TM",
+    "semanticObject": "ZSD_DE_INV",
+    "action": "PRINT",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_809C30316F372F5711AA73CD5DA3A9F33A4C0179_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "SD DE-DIAMOND INVOICE",
+        "subtitle": "sd",
+        "icon": "sap-icon://bbyd-dashboard"
+      }
+    }
+  ]
+}

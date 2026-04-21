@@ -1,0 +1,36 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "India E-Invoice",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "India E-Invoice"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.einvoice"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_EFE8B50D262916EF9D57F2F22E02C5B155524470_TM",
+    "semanticObject": "ZINV",
+    "action": "Manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_EFE8B50D262916EF9D57F2F22E02C5B155524470_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "India E-Invoice",
+        "subtitle": "e-invoice",
+        "icon": "sap-icon://business-card"
+      }
+    }
+  ]
+}

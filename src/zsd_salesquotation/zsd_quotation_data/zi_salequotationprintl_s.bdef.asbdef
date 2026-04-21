@@ -1,0 +1,95 @@
+managed implementation in class ZBP_I_SALEQUOTATIONPRINTL_S unique;
+strict;
+with draft;
+define behavior for ZI_SaleQuotationPrintL_S alias SaleQuotationPriAll
+draft table ZSALESQU_TA_D_S
+with unmanaged save
+lock master total etag LastChangedAtMax
+authorization master( global )
+
+{
+  field ( readonly )
+   SingletonID;
+
+  field ( notrigger )
+   SingletonID,
+   LastChangedAtMax;
+
+
+  update;
+  internal create;
+  internal delete;
+
+  draft action ( features : instance ) Edit;
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Resume;
+  draft determine action Prepare;
+
+  association _SaleQuotationPrintL { create ( features : instance ); with draft; }
+}
+
+define behavior for ZI_SaleQuotationPrintL alias SaleQuotationPrintL ##UNMAPPED_FIELD
+persistent table ZSALESQU_TAX
+draft table ZSALESQU_TAX_D
+etag master LocalLastChangedAt
+lock dependent by _SaleQuotationPriAll
+authorization dependent by _SaleQuotationPriAll
+
+{
+  field ( mandatory : create )
+   Zvbeln,
+   Zposnr;
+
+  field ( readonly )
+   SingletonID,
+   LocalCreatedBy,
+   LocalCeatedAt,
+   LocalLastChangedBy,
+   LocalLastChangedAt,
+   LastChangedAt;
+
+  field ( readonly : update )
+   Zvbeln,
+   Zposnr;
+
+  field ( notrigger )
+   SingletonID,
+   LocalCreatedBy,
+   LocalCeatedAt,
+   LocalLastChangedBy,
+   LocalLastChangedAt,
+   LastChangedAt;
+
+
+  update( features : global );
+  delete( features : global );
+
+  factory action ( features : instance ) CopySaleQuotationPrintL parameter ZD_CopySaleQuotationPrintLP [1];
+
+  mapping for ZSALESQU_TAX
+  {
+    Zvbeln = ZVBELN;
+    Zposnr = ZPOSNR;
+    Partscost = PARTSCOST;
+    Submaterialcost = SUBMATERIALCOST;
+    Assemblingcost = ASSEMBLINGCOST;
+    Packingandtrasnportingcost = PACKINGANDTRASNPORTINGCOST;
+    Adminstrationcostandprofit = ADMINSTRATIONCOSTANDPROFIT;
+    TtlWithoutgstInr = TTL_WITHOUTGST_INR;
+    Amoritisationcostoftooling = AMORITISATIONCOSTOFTOOLING;
+    TtlWithoutGstInrAmoritisat = TTL_WITHOUT_GST_INR_AMORITISAT;
+    Remarks1 = REMARKS1;
+    Remarks2 = REMARKS2;
+    Remarks3 = REMARKS3;
+    Remarks4 = REMARKS4;
+    Remarks5 = REMARKS5;
+    LocalCreatedBy = LOCAL_CREATED_BY;
+    LocalCeatedAt = LOCAL_CEATED_AT;
+    LocalLastChangedBy = LOCAL_LAST_CHANGED_BY;
+    LocalLastChangedAt = LOCAL_LAST_CHANGED_AT;
+    LastChangedAt = LAST_CHANGED_AT;
+  }
+
+  association _SaleQuotationPriAll { with draft; }
+}

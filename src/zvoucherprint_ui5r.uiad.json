@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Voucher Print",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Voucher Print"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.voucherprint"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_BD47E572347D13C12C531BA52EE59370B1675ECD_TM",
+    "semanticObject": "VoucherPrint",
+    "action": "Print",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_BD47E572347D13C12C531BA52EE59370B1675ECD_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Voucher Print",
+        "icon": "sap-icon://print"
+      }
+    }
+  ]
+}

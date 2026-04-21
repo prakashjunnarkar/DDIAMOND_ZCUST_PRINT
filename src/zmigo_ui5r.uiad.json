@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Migo Entry",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Migo Entry"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.zmigo"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_0C36B4DE9529FCB5BC1D6AB823CFE31569A9E5FA_TM",
+    "semanticObject": "ZMIGO",
+    "action": "Print",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_0C36B4DE9529FCB5BC1D6AB823CFE31569A9E5FA_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Migo Entry",
+        "icon": "sap-icon://shipping-status"
+      }
+    }
+  ]
+}

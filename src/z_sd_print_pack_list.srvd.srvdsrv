@@ -1,0 +1,4 @@
+@EndUserText.label: 'Packing List'
+define service Z_SD_PRINT_PACK_LIST {
+  expose ZI_PRINT_PACK_LIST;
+}

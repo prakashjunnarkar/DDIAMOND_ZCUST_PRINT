@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for GE report'
+define service Z_SD_GATE_ENTRY_REP {
+  expose ZI_GATE_ENTRY_REPORT;
+}

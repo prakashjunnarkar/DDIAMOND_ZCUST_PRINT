@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_NROB" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <ATTRIBUTES>
+    <OBJECT>ZGATE_NUM</OBJECT>
+    <DOMLEN>ZGATE_NUM_DOMA</DOMLEN>
+    <PERCENTAGE>10.0</PERCENTAGE>
+   </ATTRIBUTES>
+   <TEXT>
+    <LANGU>E</LANGU>
+    <OBJECT>ZGATE_NUM</OBJECT>
+    <TXT>Gate entry Number range</TXT>
+    <TXTSHORT>Gate entry Number...</TXTSHORT>
+   </TEXT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

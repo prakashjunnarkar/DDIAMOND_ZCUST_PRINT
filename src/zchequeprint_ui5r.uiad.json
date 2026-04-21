@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Cheque Print",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Cheque Print"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.chequeprint"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_DC242BC7747B94ECD75A9CAF25F80D4CBD80E26F_TM",
+    "semanticObject": "Cheque_Print",
+    "action": "Print",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_DC242BC7747B94ECD75A9CAF25F80D4CBD80E26F_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Cheque Print",
+        "icon": "sap-icon://print"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "ASN Export",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "ASN Export"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.zasntext"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_F128CAC70AE3DDFB2829B2EECBC19869D9D2B65E_TM",
+    "semanticObject": "ASN_EXPORT",
+    "action": "Export",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_F128CAC70AE3DDFB2829B2EECBC19869D9D2B65E_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "ASN Export",
+        "icon": "sap-icon://action"
+      }
+    }
+  ]
+}

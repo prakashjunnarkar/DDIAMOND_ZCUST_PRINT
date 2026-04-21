@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service definition for TAXCODE F4'
+define service Z_SD_TAXCODE_F4 {
+  expose ZI_taxcode_f4;
+  expose ZC_TAX_GST_PRCNT;
+}

@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Packing List Process",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Packing List Process"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.zpacking"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_3060EAE5B9F03C4D89B1C994614126A4851E45D7_TM",
+    "semanticObject": "zpacking",
+    "action": "Create",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_3060EAE5B9F03C4D89B1C994614126A4851E45D7_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Packing List Process",
+        "icon": "sap-icon://create-form"
+      }
+    }
+  ]
+}

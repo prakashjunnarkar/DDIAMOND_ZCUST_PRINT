@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for so data'
+define service Z_SD_SO_DATA {
+  expose ZI_SO_DATA;
+}

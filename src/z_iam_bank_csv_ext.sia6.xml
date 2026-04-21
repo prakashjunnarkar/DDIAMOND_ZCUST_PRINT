@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>Z_IAM_BANK_CSV_EXT</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>IAM APP for BANK INT_MUFG</DESCRIPTION>
+     <RESPONSIBLE>CB9980000001</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>MTG</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>ZCUST_PRINT</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>Z_IAM_BANK_CSV_EXT</APP_ID>
+    <APP_TYPE>EXT</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <UI_APP_ID>ZBANKCSVEXP_UI5R</UI_APP_ID>
+    <SERVICE>
+     <item>
+      <REL_NAME>ZHTTP_BANK_INTG</REL_NAME>
+      <REL_TYPE>HTTP</REL_TYPE>
+      <APP_ID>Z_IAM_BANK_CSV_EXT</APP_ID>
+      <SRVC_NAME>53061F594B07F19CC3D3A8AA1DF567</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Bank Integration</TEXT>
+      <TYPE_TEXT>HTTP Service</TYPE_TEXT>
+     </item>
+    </SERVICE>
+    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Material Issue Slip",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Material Issue Slip"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.materialissue"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_378F0B97157DE4222D59B3B52AE1B6887175B7A5_TM",
+    "semanticObject": "Material_Issue",
+    "action": "Print_Fetch",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_378F0B97157DE4222D59B3B52AE1B6887175B7A5_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Material Issue Slip",
+        "icon": "sap-icon://print"
+      }
+    }
+  ]
+}

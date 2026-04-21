@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Defination for print Quatation'
+define service Z_SD_PRINT_QUOT {
+  expose ZI_PRINT_QUOT;
+}

@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Maintain Vendor Code",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Maintain Vendor Code"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.zvendcode"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_C93F21B009345EB4BA75C65AFED89FC695FBF9B6_TM",
+    "semanticObject": "ZMAINTVENDORCODE",
+    "action": "vendorcode",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_C93F21B009345EB4BA75C65AFED89FC695FBF9B6_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Maintain Vendor Code",
+        "icon": "sap-icon://add-employee"
+      }
+    }
+  ]
+}

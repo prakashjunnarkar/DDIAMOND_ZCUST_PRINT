@@ -1,0 +1,7 @@
+@EndUserText.label: 'Service definition for RGPOUT report'
+define service Z_SD_RGPOUT_REP {
+  expose ZI_RGP_out_REPORT;
+  expose ZI_RGPin_REPORT;
+  expose ZI_NRGP_REPORT;
+  expose zi_rgpout_rep;
+}

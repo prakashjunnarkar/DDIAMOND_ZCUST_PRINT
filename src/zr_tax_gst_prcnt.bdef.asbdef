@@ -1,0 +1,51 @@
+managed implementation in class ZBP_R_TAX_GST_PRCNT unique;
+strict ( 2 );
+with draft;
+extensible;
+define behavior for ZR_TAX_GST_PRCNT alias ZrTaxGstPrcnt
+persistent table ZTAX_GST_PRCNT
+extensible
+draft table ZTAX_GST_PRCNT_D
+etag master ChangedAt
+lock master total etag ChangedAt
+authorization master( global )
+{
+  field ( mandatory : create )
+   Taxcode;
+
+  field ( readonly )
+   CreatedBy,
+   CreatedAt,
+   ChangedBy,
+   ChangedAt;
+
+  field ( readonly : update )
+   Taxcode;
+
+
+  create;
+  update;
+  delete;
+
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for ZTAX_GST_PRCNT corresponding extensible
+  {
+    Taxcode = TAXCODE;
+    Cgstrate = CGSTRATE;
+    Sgstrate = SGSTRATE;
+    Igstrate = IGSTRATE;
+    Erdate = ERDATE;
+    Uzeit = UZEIT;
+    Uname = UNAME;
+    CreatedBy = CREATED_BY;
+    CreatedAt = CREATED_AT;
+    ChangedBy = CHANGED_BY;
+    ChangedAt = CHANGED_AT;
+  }
+
+}

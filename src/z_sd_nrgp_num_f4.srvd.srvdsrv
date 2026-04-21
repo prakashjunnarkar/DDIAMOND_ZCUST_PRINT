@@ -1,0 +1,4 @@
+@EndUserText.label: 'NRGP NUM F4'
+define service Z_SD_NRGP_NUM_F4 {
+  expose ZI_nrgp_num_F4;
+}

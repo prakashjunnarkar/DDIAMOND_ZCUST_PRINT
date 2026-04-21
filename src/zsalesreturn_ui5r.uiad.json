@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Sales Return",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Sales Return"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.zsalesreturn"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_1EB0F5CCED5E05C39C9C5458E595034B7B512D62_TM",
+    "semanticObject": "ZSALESRETURN",
+    "action": "Return",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_1EB0F5CCED5E05C39C9C5458E595034B7B512D62_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Sales Return",
+        "icon": "sap-icon://BusinessSuiteInAppSymbols/icon-return-delivery"
+      }
+    }
+  ]
+}

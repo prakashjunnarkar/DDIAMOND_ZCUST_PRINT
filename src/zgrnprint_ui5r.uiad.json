@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "GRN Print",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "GRN Print"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.zgrnprint"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_F2CC610FDD416C997100318F2BBF2827C7549639_TM",
+    "semanticObject": "ZGRN_Print",
+    "action": "Print",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_F2CC610FDD416C997100318F2BBF2827C7549639_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "GRN Print",
+        "icon": "sap-icon://print"
+      }
+    }
+  ]
+}

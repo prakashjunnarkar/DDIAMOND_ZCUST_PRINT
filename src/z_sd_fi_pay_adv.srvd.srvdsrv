@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for payment advice'
+define service Z_SD_FI_PAY_ADV {
+  expose ZI_FI_PAY_ADV;
+}

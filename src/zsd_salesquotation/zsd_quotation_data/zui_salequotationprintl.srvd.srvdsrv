@@ -1,0 +1,5 @@
+@ObjectModel.leadingEntity.name: 'ZI_SaleQuotationPrintL_S'
+define service ZUI_SALEQUOTATIONPRINTL {
+  expose ZI_SALEQUOTATIONPRINTL_S as SaleQuotationPriAll;
+  expose ZI_SALEQUOTATIONPRINTL as SaleQuotationPrintL;
+}

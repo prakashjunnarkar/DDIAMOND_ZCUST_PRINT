@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service definition for compny code VH'
+define service ZFI_SD_CCODE_VH {
+  expose ZFI_CCODE_VH;
+  expose ZFI_BA_AGING_RPT_CUST_VH;
+}

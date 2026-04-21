@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for material rgpout'
+define service Z_SD_MATERIAL_F4_RGPOUT {
+  expose zi_material_f4_rgpout;
+}

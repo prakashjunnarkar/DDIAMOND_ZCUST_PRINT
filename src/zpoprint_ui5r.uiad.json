@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Purchase Order Print",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Purchase Order Print"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.poprint"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_A16F0EFBB79504C235DAE53D549DEDBE4FD2E52A_TM",
+    "semanticObject": "poprint",
+    "action": "print",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_A16F0EFBB79504C235DAE53D549DEDBE4FD2E52A_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Purchase Order Print",
+        "icon": "sap-icon://print"
+      }
+    }
+  ]
+}

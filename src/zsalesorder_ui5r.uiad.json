@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Sales order Print",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Sales order Print"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.salesorderprint"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_9B0950529006877561656D0F5E4B771DC5FD8691_TM",
+    "semanticObject": "salesorderprint",
+    "action": "print",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_9B0950529006877561656D0F5E4B771DC5FD8691_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Sales order Print",
+        "icon": "sap-icon://print"
+      }
+    }
+  ]
+}

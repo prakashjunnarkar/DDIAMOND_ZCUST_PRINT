@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Lot Job Print"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.lotjobprint"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_38547B74E8BFCDC0C8F088C9A60A9BE47E9EAD1F_TM",
+    "semanticObject": "LOT_JOB_PRINT",
+    "action": "Print",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_38547B74E8BFCDC0C8F088C9A60A9BE47E9EAD1F_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Lot Job Print",
+        "icon": "sap-icon://broken-link"
+      }
+    }
+  ]
+}

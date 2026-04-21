@@ -1,0 +1,4 @@
+@EndUserText.label: 'Gate entry F4'
+define service Z_SD_GATE_F4 {
+  expose ZI_GATE_ENTRY_F4;
+}

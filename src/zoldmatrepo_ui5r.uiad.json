@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Old Material Report",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Old Material Report"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.oldmatrep"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_12AD1FB849C43B71C79C6C5A121D9F6C496D5158_TM",
+    "semanticObject": "OLD_MAT_REPO",
+    "action": "REPORT",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_12AD1FB849C43B71C79C6C5A121D9F6C496D5158_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Old Material Report"
+      }
+    }
+  ]
+}

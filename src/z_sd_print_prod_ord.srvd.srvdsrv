@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for production order print'
+define service Z_SD_PRINT_PROD_ORD {
+  expose ZI_PRINT_PROD_ORD;
+}

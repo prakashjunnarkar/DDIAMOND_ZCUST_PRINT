@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>ZSALESQU_IAM_MBC</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>IAM App for Sales Quotation print</DESCRIPTION>
+     <RESPONSIBLE>CB9980000001</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>MTG</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>ZSD_QUOTATION_DATA</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>ZSALESQU_IAM_MBC</APP_ID>
+    <APP_TYPE>MBC</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <SERVICE>
+     <item>
+      <REL_NAME>ZUI_SALEQUOTATIONPRINTL_O4</REL_NAME>
+      <REL_TYPE>G4BA</REL_TYPE>
+      <APP_ID>ZSALESQU_IAM_MBC</APP_ID>
+      <SRVC_NAME>635893D41E8224161990FAF0C7F581</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <TEXT>Maintain Sale Quotation print line item Tax data</TEXT>
+      <TYPE_TEXT>OData V4</TYPE_TEXT>
+     </item>
+    </SERVICE>
+    <AUTH>
+     <item>
+      <AUTH_OBJECT>S_TABU_NAM</AUTH_OBJECT>
+      <STATUS>U</STATUS>
+      <TEXT>Table Access by Generic Standard Tools</TEXT>
+      <AUTH_ITEM>
+       <item>
+        <UUID>QgEKC4OEH+CbknNqV5ikkw==</UUID>
+        <AUTH_OBJECT>S_TABU_NAM</AUTH_OBJECT>
+        <AUTH_OBJECT_INSTANCE>0001</AUTH_OBJECT_INSTANCE>
+        <TEXT>Table Access by Generic Standard Tools</TEXT>
+        <STATUS>U</STATUS>
+        <VALUES>
+         <item>
+          <FIELD>ACTVT</FIELD>
+          <VALUE>Change,Display,Display change documents</VALUE>
+          <VALUES>
+           <item>
+            <UUID>QgEKC4OEH+CbknNqV5jEkw==</UUID>
+            <LOW_VALUE>02</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>QgEKC4OEH+CbknNqV5jkkw==</UUID>
+            <LOW_VALUE>03</LOW_VALUE>
+           </item>
+           <item>
+            <UUID>QgEKC4OEH+CbknNqV5kEkw==</UUID>
+            <LOW_VALUE>08</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Activity</TEXT>
+          <STATUS>U</STATUS>
+          <IS_ACTVT>X</IS_ACTVT>
+         </item>
+         <item>
+          <FIELD>TABLE</FIELD>
+          <VALUE>ZI_SALEQUOTATIONPRINTL</VALUE>
+          <VALUES>
+           <item>
+            <UUID>QgEKC4OEH+CbknNqV5kkkw==</UUID>
+            <LOW_VALUE>ZI_SALEQUOTATIONPRINTL</LOW_VALUE>
+           </item>
+          </VALUES>
+          <TEXT>Table Name</TEXT>
+          <STATUS>U</STATUS>
+         </item>
+        </VALUES>
+       </item>
+      </AUTH_ITEM>
+     </item>
+    </AUTH>
+    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>

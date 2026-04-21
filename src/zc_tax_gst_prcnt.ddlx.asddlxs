@@ -1,0 +1,167 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Taxcode'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Taxcode'
+annotate view ZC_TAX_GST_PRCNT with
+{
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 
+  } ]
+  @UI.lineItem: [ {
+    position: 10 
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  Taxcode;
+  
+  @EndUserText.label: 'Cgstrate'
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'Cgstrate'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'Cgstrate'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  Cgstrate;
+  
+  @EndUserText.label: 'Sgstrate'
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'Sgstrate'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'Sgstrate'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  Sgstrate;
+  
+  @EndUserText.label: 'Igstrate'
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'Igstrate'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'Igstrate'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  Igstrate;
+  
+  @EndUserText.label: 'Erdate'
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'Erdate'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'Erdate'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  Erdate;
+  
+  @EndUserText.label: 'Uzeit'
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'Uzeit'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'Uzeit'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  Uzeit;
+  
+  @EndUserText.label: 'Uname'
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'Uname'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'Uname'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  Uname;
+  
+  @UI.identification: [ {
+    position: 80 
+  } ]
+  @UI.lineItem: [ {
+    position: 80 
+  } ]
+  @UI.selectionField: [ {
+    position: 80 
+  } ]
+  CreatedBy;
+  
+  @UI.identification: [ {
+    position: 90 
+  } ]
+  @UI.lineItem: [ {
+    position: 90 
+  } ]
+  @UI.selectionField: [ {
+    position: 90 
+  } ]
+  CreatedAt;
+  
+  @UI.identification: [ {
+    position: 100 
+  } ]
+  @UI.lineItem: [ {
+    position: 100 
+  } ]
+  @UI.selectionField: [ {
+    position: 100 
+  } ]
+  ChangedBy;
+  
+  @UI.identification: [ {
+    position: 110 
+  } ]
+  @UI.lineItem: [ {
+    position: 110 
+  } ]
+  @UI.selectionField: [ {
+    position: 110 
+  } ]
+  ChangedAt;
+  
+  @EndUserText.label: '_BaseEntity'
+  @UI.identification: [ {
+    position: 120 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.lineItem: [ {
+    position: 120 , 
+    label: '_BaseEntity'
+  } ]
+  @UI.selectionField: [ {
+    position: 120 
+  } ]
+  _BaseEntity;
+}

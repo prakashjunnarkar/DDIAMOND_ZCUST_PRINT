@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for GE data'
+define service Z_SD_GE_DATA {
+  expose ZI_GE_DATA;
+}

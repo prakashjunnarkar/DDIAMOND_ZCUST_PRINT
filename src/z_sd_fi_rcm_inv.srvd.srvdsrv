@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for fi RCM inv'
+define service Z_SD_FI_RCM_INV {
+  expose ZI_FI_RCM_INV;
+}

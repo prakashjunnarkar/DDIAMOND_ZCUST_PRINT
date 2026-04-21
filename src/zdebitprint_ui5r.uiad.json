@@ -1,0 +1,36 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Debit Note Print",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Debit Note Print"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.debitprint"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_07F751DB7689576E04FEBA518783D823E3B21253_TM",
+    "semanticObject": "debitprint",
+    "action": "print",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_07F751DB7689576E04FEBA518783D823E3B21253_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Debit Note Print",
+        "subtitle": "FI",
+        "icon": "sap-icon://customer-financial-fact-sheet"
+      }
+    }
+  ]
+}

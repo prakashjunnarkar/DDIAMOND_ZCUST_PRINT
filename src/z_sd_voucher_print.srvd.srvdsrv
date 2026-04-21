@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for voucher print'
+define service Z_SD_VOUCHER_PRINT {
+  expose ZI_PRINT_VOUCHER;
+}

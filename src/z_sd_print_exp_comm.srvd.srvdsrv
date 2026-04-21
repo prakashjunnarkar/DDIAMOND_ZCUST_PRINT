@@ -1,0 +1,4 @@
+@EndUserText.label: 'Export comm'
+define service Z_SD_PRINT_EXP_COMM {
+  expose ZI_PRINT_EXP_COMM;
+}

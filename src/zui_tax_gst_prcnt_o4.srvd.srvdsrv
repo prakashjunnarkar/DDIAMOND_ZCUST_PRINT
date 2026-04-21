@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_TAX_GST_PRCNT'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_TAX_GST_PRCNT'
+  }
+}
+define service ZUI_TAX_GST_PRCNT_O4 provider contracts odata_v4_ui {
+  expose ZC_TAX_GST_PRCNT;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for sale return'
+define service Z_SD_SALE_RET_REP {
+  expose ZI_SALE_RET_REP;
+}

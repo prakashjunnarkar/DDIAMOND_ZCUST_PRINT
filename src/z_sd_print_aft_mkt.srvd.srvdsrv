@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for after market'
+define service Z_SD_PRINT_AFT_MKT {
+  expose ZI_PRINT_AFT_MKT;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD PLant F4 GE'
+define service Z_SD_GATE_ENTRY_F4 {
+  expose ZI_GE_PLANT_DET;
+}

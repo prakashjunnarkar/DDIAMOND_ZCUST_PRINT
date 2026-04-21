@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "OEE REPORT",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "OEE REPORT"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.zoeereport"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_EAE3EDD813BE1B0801445F3F72839CCD880F8657_TM",
+    "semanticObject": "OEE_REPORT",
+    "action": "Report",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_EAE3EDD813BE1B0801445F3F72839CCD880F8657_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "OEE REPORT",
+        "icon": "sap-icon://manager-insight"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Customer Ageing Report"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.custagerep"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_5D28584EA1BD28BFE638D280BB358C47DB3CA62C_TM",
+    "semanticObject": "ZCust_Age_Rep",
+    "action": "Custom_Report",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_5D28584EA1BD28BFE638D280BB358C47DB3CA62C_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Customer Ageing Report"
+      }
+    }
+  ]
+}

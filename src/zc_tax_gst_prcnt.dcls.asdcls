@@ -1,0 +1,6 @@
+@EndUserText.label: 'ZC_TAX_GST_PRCNT'
+@MappingRole: true
+define role ZC_TAX_GST_PRCNT {
+  grant select on ZC_TAX_GST_PRCNT
+  where INHERITING CONDITIONS FROM ENTITY ZR_TAX_GST_PRCNT REPLACING { ROOT WITH _BaseEntity };
+}

@@ -1,0 +1,147 @@
+@Metadata.layer: #CUSTOMER
+@UI: {
+  headerInfo: {
+    typeName: 'SaleQuotationPrintT', 
+    typeNamePlural: 'SaleQuotationPrintTs', 
+    title: {
+      type: #STANDARD, 
+      label: 'Sale Quotation print Tax data', 
+      value: 'Zvbeln'
+    }
+  }
+}
+annotate view ZI_SaleQuotationPrintT with
+{
+  @UI.identification: [ {
+    position: 1 
+  } ]
+  @UI.lineItem: [ {
+    position: 1 
+  } ]
+  @UI.facet: [ {
+    id: 'ZI_SaleQuotationPrintT', 
+    purpose: #STANDARD, 
+    type: #IDENTIFICATION_REFERENCE, 
+    label: 'Sale Quotation print Tax data', 
+    position: 1 
+  } ]
+  Zvbeln;
+  
+  @UI.identification: [ {
+    position: 2 
+  } ]
+  @UI.lineItem: [ {
+    position: 2 
+  } ]
+  Zposnr;
+  
+  @UI.identification: [ {
+    position: 3 , 
+    label: 'Partscost'
+  } ]
+  @UI.lineItem: [ {
+    position: 3 , 
+    label: 'Partscost'
+  } ]
+  Partscost;
+  
+  @UI.identification: [ {
+    position: 4 , 
+    label: 'Submaterialcost'
+  } ]
+  @UI.lineItem: [ {
+    position: 4 , 
+    label: 'Submaterialcost'
+  } ]
+  Submaterialcost;
+  
+  @UI.identification: [ {
+    position: 5 , 
+    label: 'Assemblingcost'
+  } ]
+  @UI.lineItem: [ {
+    position: 5 , 
+    label: 'Assemblingcost'
+  } ]
+  Assemblingcost;
+  
+  @UI.identification: [ {
+    position: 6 , 
+    label: 'Packingandtrasnportingcost'
+  } ]
+  @UI.lineItem: [ {
+    position: 6 , 
+    label: 'Packingandtrasnportingcost'
+  } ]
+  Packingandtrasnportingcost;
+  
+  @UI.identification: [ {
+    position: 7 , 
+    label: 'Adminstrationcostandprofit'
+  } ]
+  @UI.lineItem: [ {
+    position: 7 , 
+    label: 'Adminstrationcostandprofit'
+  } ]
+  Adminstrationcostandprofit;
+  
+  @UI.identification: [ {
+    position: 8 , 
+    label: 'TtlWithoutgstInr'
+  } ]
+  @UI.lineItem: [ {
+    position: 8 , 
+    label: 'TtlWithoutgstInr'
+  } ]
+  TtlWithoutgstInr;
+  
+  @UI.identification: [ {
+    position: 9 , 
+    label: 'Amoritisationcostoftooling'
+  } ]
+  @UI.lineItem: [ {
+    position: 9 , 
+    label: 'Amoritisationcostoftooling'
+  } ]
+  Amoritisationcostoftooling;
+  
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'TtlWithoutGstInrAmoritisat'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'TtlWithoutGstInrAmoritisat'
+  } ]
+  TtlWithoutGstInrAmoritisat;
+  
+  @UI.identification: [ {
+    position: 11 , 
+    label: 'Remarks1'
+  } ]
+  Remarks1;
+  
+  @UI.identification: [ {
+    position: 12 , 
+    label: 'Remarks2'
+  } ]
+  Remarks2;
+  
+  @UI.identification: [ {
+    position: 13 , 
+    label: 'Remarks3'
+  } ]
+  Remarks3;
+  
+  @UI.identification: [ {
+    position: 14 , 
+    label: 'Remarks4'
+  } ]
+  Remarks4;
+  
+  @UI.identification: [ {
+    position: 15 , 
+    label: 'Remarks5'
+  } ]
+  Remarks5;
+}

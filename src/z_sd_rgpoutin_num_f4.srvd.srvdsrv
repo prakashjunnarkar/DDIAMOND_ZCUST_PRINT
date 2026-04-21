@@ -1,0 +1,4 @@
+@EndUserText.label: 'RGPOUT NUM F4'
+define service Z_sd_rgpoutin_num_F4 {
+  expose ZI_rgpoutin_num_F4;
+}

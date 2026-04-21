@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Vendor Ageing",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Vendor Ageing"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.vendorageing"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_5C8F5DB3796B9EFF5C3294E8D99886A97702B2E2_TM",
+    "semanticObject": "VENDORAGEING",
+    "action": "Fetch",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_5C8F5DB3796B9EFF5C3294E8D99886A97702B2E2_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Vendor Ageing",
+        "icon": "sap-icon://documents"
+      }
+    }
+  ]
+}

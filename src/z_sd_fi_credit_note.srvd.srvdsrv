@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for fi credit note'
+define service Z_SD_FI_CREDIT_NOTE {
+  expose ZI_FI_CREDIT_NOTE;
+}

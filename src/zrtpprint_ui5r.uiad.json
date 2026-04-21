@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "RTP Print",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "RTP Print"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.zrtpprint"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_9E3DA1FB50C2AA7CC15AD5F5D53F41EFB7C3E191_TM",
+    "semanticObject": "ZRTP_Print",
+    "action": "Print",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_9E3DA1FB50C2AA7CC15AD5F5D53F41EFB7C3E191_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "RTP Print",
+        "icon": "sap-icon://print"
+      }
+    }
+  ]
+}

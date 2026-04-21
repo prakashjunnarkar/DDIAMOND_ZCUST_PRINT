@@ -1,0 +1,37 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Maintain Sale Quotation print line item Tax data",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "serviceConfiguration": {
+    "serviceBinding": "ZUI_SALEQUOTATIONPRINTL_O4",
+    "serviceName": "ZUI_SALEQUOTATIONPRINTL_O4",
+    "serviceVersion": "0001",
+    "rootEntitySet": "SaleQuotationPriAll",
+    "name": "Sale Quotation print line item Tax data",
+    "transportObject": "",
+    "configurationGroup": "",
+    "skipRootEntity": true,
+    "enableFileUpload": false
+  },
+  "appConfiguration": {
+    "listReport": {},
+    "objectPages": [
+      {
+        "entitySet": "SaleQuotationPriAll",
+        "variantManagement": "control"
+      }
+    ],
+    "tableSettings": [
+      {
+        "entitySet": "SaleQuotationPrintL",
+        "selectionMode": "single",
+        "selectAll": true,
+        "rowCountMode": "auto",
+        "frozenColumnCount": 2
+      }
+    ]
+  }
+}

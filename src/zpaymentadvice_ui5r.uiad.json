@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Payment Advice",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Payment Advice"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.paymentadv"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_8AEA09851A528F2E701D625EF3BAD377A18CBBC3_TM",
+    "semanticObject": "Payment_Advice",
+    "action": "Print",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_8AEA09851A528F2E701D625EF3BAD377A18CBBC3_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Payment Advice",
+        "icon": "sap-icon://print"
+      }
+    }
+  ]
+}

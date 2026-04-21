@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for DC note'
+define service Z_SD_PRINT_DC_NOTE {
+  expose ZI_PRINT_DC_NOTE;
+}

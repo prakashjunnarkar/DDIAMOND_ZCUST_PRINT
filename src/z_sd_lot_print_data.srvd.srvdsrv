@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for lot print'
+define service Z_SD_LOT_PRINT_DATA {
+  expose ZI_LOT_PRINT_DATA;
+}

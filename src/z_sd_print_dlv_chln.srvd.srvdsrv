@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for delv challan'
+define service Z_SD_PRINT_DLV_CHLN {
+  expose ZI_PRINT_DLV_CHLN;
+}

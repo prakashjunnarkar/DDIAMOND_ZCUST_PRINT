@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Gate Entry Report",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Gate Entry Report"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.gateentryreport"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_0AB1E5028FDFE1059FE43E85633F71E0E86720C0_TM",
+    "semanticObject": "GateEntryReport",
+    "action": "Print_Fetch",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_0AB1E5028FDFE1059FE43E85633F71E0E86720C0_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Gate Entry Report",
+        "icon": "sap-icon://print"
+      }
+    }
+  ]
+}

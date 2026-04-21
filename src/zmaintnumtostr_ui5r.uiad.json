@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "maintain num to string",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "maintain num to string"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.maintnumtostr"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_48CFEA2D5E9F61242646C2F07460CB459246D75D_TM",
+    "semanticObject": "maint_num_to_string",
+    "action": "Maint",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_48CFEA2D5E9F61242646C2F07460CB459246D75D_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "maintain num to string",
+        "icon": "sap-icon://print"
+      }
+    }
+  ]
+}

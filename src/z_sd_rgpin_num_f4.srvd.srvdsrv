@@ -1,0 +1,4 @@
+@EndUserText.label: 'RGPIN F4'
+define service Z_sd_rgpin_num_F4 {
+  expose ZI_rgpin_num_F4;
+}

@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Quotation Print",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Quotation Print"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.quotationprint"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_6AD9061BBF822EFC9E736875FEA269EE6499FEC9_TM",
+    "semanticObject": "Quotation_Print",
+    "action": "Print",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_6AD9061BBF822EFC9E736875FEA269EE6499FEC9_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Quotation Print",
+        "icon": "sap-icon://print"
+      }
+    }
+  ]
+}

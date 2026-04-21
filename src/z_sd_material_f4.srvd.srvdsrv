@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for matnr F4'
+define service Z_SD_MATERIAL_F4 {
+  expose ZI_MATERIAL_F4;
+}

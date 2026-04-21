@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for port address'
+define service Z_SD_PORT_ADRS {
+  expose ZI_PORT_ADDRESS;
+}

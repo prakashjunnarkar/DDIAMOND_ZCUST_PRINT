@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for schedule agreement'
+define service Z_SD_SCHEDULE_AGREEMENT {
+  expose ZI_SCHEDULE_AGREEMENT;
+}

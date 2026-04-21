@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for Sticker Print'
+define service ZSD_sticker_print {
+  expose Zi_sticker_print;
+}

@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "MAINTAIN SYSTEM ID",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "MAINTAIN SYSTEM ID"
+  },
+  "ui5AppDetails": {
+    "appId": "dediamond.maintsystemid"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_E2B82E831D84EBB806546D12A4B9EE1489B9A860_TM",
+    "semanticObject": "MAINTSYSTEMID",
+    "action": "Report",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_E2B82E831D84EBB806546D12A4B9EE1489B9A860_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "MAINTAIN SYSTEM ID",
+        "icon": "sap-icon://journey-change"
+      }
+    }
+  ]
+}

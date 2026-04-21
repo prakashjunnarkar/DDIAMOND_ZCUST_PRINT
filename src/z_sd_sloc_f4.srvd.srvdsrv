@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD for sloc F4'
+define service Z_SD_SLOC_F4 {
+  expose ZI_SLOC_F4;
+}
